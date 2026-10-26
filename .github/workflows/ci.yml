@@ -20,7 +20,7 @@ jobs:
           cache: npm
 
       # MongoDB binary used by the in-memory test database
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: ~/.cache/mongodb-binaries
           key: mongodb-binaries-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
