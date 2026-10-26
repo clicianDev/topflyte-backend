@@ -1,0 +1,17 @@
+node_modules
+dist
+coverage
+*.log
+
+# Secrets — use .env.example as the template
+.env
+.env.*
+!.env.example
+
+# Embedded development database
+.data
+
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
